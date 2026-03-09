@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tailwind Margin</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-6 space-y-6">
+
+  <section class="bg-white p-4 rounded shadow space-y-3 text-xl">
+    <h2 class="font-semibold text-2xl">General</h2>
+    <div class="bg-gray-100">
+      Top
+      <div class="bg-green-200 p-3">No margin</div>
+      Bottom
+    </div>
+    <div class="bg-gray-100">
+      Top <div class="bg-green-200 p-3 m-6">m-6</div> Bottom
+    </div>
+  </section>
+
+  <section class="bg-white p-4 rounded shadow space-y-3 text-xl">
+    <h2 class="font-semibold text-2xl">Vertical</h2>
+    <div class="bg-gray-100">
+      Top
+      <div class="bg-blue-200 p-3 mt-6">mt-6</div>
+      Bottom
+    </div>
+    <div class="bg-gray-100">
+      Top <div class="bg-blue-200 p-3 mb-6">mb-6</div> Bottom
+    </div>
+  </section>
+
+  <section class="bg-white p-4 rounded shadow space-y-3 text-xl">
+    <h2 class="font-semibold text-2xl">Horizontal</h2>
+    <div class="bg-gray-100">
+      Top
+      <div class="bg-red-200 p-3 ml-9">ml-9</div>
+      Bottom
+    </div>
+    <div class="bg-gray-100">
+      Top <div class="bg-red-200 p-3 mr-9">mr-9</div> Bottom
+    </div>
+  </section>
+
+</body>
+</html>

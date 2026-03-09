@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Tailwind Colors</title>
+    <!-- Tailwind via CDN for a quick demo (no build required) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-6 space-y-4">
+  <h1 class="text-2xl font-bold">Tailwind colors</h1>
+
+  <section class="grid gap-4 sm:grid-cols-3">
+    <!-- Text color examples -->
+    <div class="bg-white p-3 rounded-lg shadow space-y-2">
+      <h2 class="font-semibold text-2xl">Text</h2>
+      <p class="text-base text-blue-200">text-blue-200</p>
+      <p class="text-base text-blue-500">text-blue-500</p>
+      <p class="text-base text-blue-900">text-blue-900</p>
+    </div>
+
+    <!-- Background color swatches -->
+    <div class="bg-white p-3 rounded-lg shadow space-y-2">
+      <h2 class="font-semibold text-2xl">Background</h2>
+      <div class="flex gap-2 items-center">
+        <div class="w-12 h-8 bg-red-200 border rounded"></div>
+        <code class="text-sm">bg-red-200</code>
+      </div>
+      <div class="flex gap-2 items-center">
+        <div class="w-12 h-8 bg-red-500 border rounded"></div>
+        <code class="text-sm">bg-red-500</code>
+      </div>
+      <div class="flex gap-2 items-center">
+        <div class="w-12 h-8 bg-red-900 border rounded"></div>
+        <code class="text-sm">bg-red-900</code>
+      </div>
+    </div>
+  </section>
+
+  <p class="text-sm text-gray-500">Tip: color utilities follow the pattern <code>PROPERTY-COLOR-SHADE</code>, e.g. <code>bg-blue-500</code>, <code>text-red-600</code>, <code>border-green-400</code>.</p>
+</body>
+</html>

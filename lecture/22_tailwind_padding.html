@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tailwind Padding</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-6 space-y-6">
+  <h1 class="text-4xl font-bold">Tailwind Padding</h1>
+
+  <!-- General -->
+  <section class="bg-white p-4 rounded shadow space-y-3 text-xl">
+    <h2 class="font-semibold text-2xl">General</h2>
+    <div class="border-2 border-red-500 p-2">p-2</div>
+    <div class="border-2 border-red-500 p-4">p-4</div>
+    <div class="border-2 border-red-500 p-6">p-6</div>
+  </section>
+
+  <!-- Vertical padding -->
+  <section class="bg-white p-4 rounded shadow space-y-3 text-xl">
+    <h2 class="font-semibold text-2xl">Vertical</h2>
+    <div class="border-2 border-green-500 pt-6">pt-6</div>
+    <div class="border-2 border-green-500 pb-6">pb-6</div>
+  </section>
+
+  <!-- Horizontal padding -->
+  <section class="bg-white p-4 rounded shadow space-y-3 text-xl">
+    <h2 class="font-semibold text-2xl">Horizontal</h2>
+    <div class="border-2 border-blue-500 pl-9">pl-9</div>
+    <div class="border-2 border-blue-500 pr-9">pr-9</div>
+  </section>
+
+  <p class="text-sm text-gray-500">Tip: padding changes the space inside an element; combine axis helpers (px/py) or single-side helpers (pl/pr/pt/pb) for exact control.</p>
+</body>
+</html>
